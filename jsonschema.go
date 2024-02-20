@@ -16,7 +16,7 @@ import (
 	"github.com/xeipuuv/gojsonschema"
 )
 
-const Namespace = "github.com/devopsfaith/krakend-jsonschema"
+const Namespace = "github.com/davron112/krakend-jsonschema"
 
 var ErrEmptyBody = &malformedError{err: errors.New("could not validate an empty body")}
 
